@@ -1,0 +1,25 @@
+body{
+  position: fixed;
+}
+
+#main_nav{
+  position: fixed;
+  bottom: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1vw;
+}
+#main_nav a{
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#main_nav a:hover{
+  opacity: 0.75;
+}
