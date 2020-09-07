@@ -1,7 +1,12 @@
 body{
   position: fixed;
 }
-
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 #main_nav{
   position: fixed;
   bottom: 0;
@@ -14,12 +19,8 @@ body{
   font-size: 1vw;
 }
 #main_nav a{
-  text-decoration: none;
-  color: inherit;
   opacity: 0.5;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
-#main_nav a:hover{
-  opacity: 0.75;
+a:hover{
+  opacity: 0.75 !important;
 }
